@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dương Đức Quân (DuongDucQuann) – Full Stack Web Developer</title>
+<meta name="description" content="Dương Đức Quân (DuongDucQuann), lập trình viên Full Stack sinh năm 2006, theo học Công nghệ Thông tin tại TP. Hồ Chí Minh. Thiết kế và lập trình website, API, cơ sở dữ liệu, PowerPoint và Excel.">
+<meta name="keywords" content="Dương Đức Quân, DuongDucQuann, Full Stack Developer, lập trình web, ReactJS, Node.js, PHP, CodeIgniter, MySQL">
+<meta name="author" content="Dương Đức Quân">
+<meta property="og:title" content="Dương Đức Quân (DuongDucQuann) – Full Stack Web Developer">
+<meta property="og:description" content="Portfolio và dịch vụ lập trình web của Dương Đức Quân.">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dương Đức Quân",
+  "alternateName": ["DuongDucQuann", "Duong Duc Quan"],
+  "jobTitle": "Full Stack Web Developer",
+  "address": { "@type": "PostalAddress", "addressLocality": "Thành phố Hồ Chí Minh", "addressCountry": "VN" },
+  "knowsAbout": ["Web development", "ReactJS", "Node.js", "PHP", "CodeIgniter", "MySQL", "REST API", "OpenStreetMap"],
+  "sameAs": [
+    "https://www.facebook.com/DuongDucQuann",
+    "https://sites.google.com/view/duongducquan",
+    "https://github.com/duongducquan",
+    "https://www.linkedin.com/in/duongducquan"
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --paper: #f3f5f7;
+    --ink: #14212b;
+    --muted: #51606b;
+    --blue: #1d4e89;
+    --mark: #f2b705;
+    --rule: #c9d1d8;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 0 1.5rem; }
+  a { color: var(--blue); text-underline-offset: 3px; }
+  a:hover { color: var(--ink); }
+  a:focus-visible { outline: 3px solid var(--mark); outline-offset: 3px; }
+
+  header { padding: 6rem 0 3.5rem; }
+  h1 {
+    margin: 0;
+    font-size: clamp(2.75rem, 11vw, 5.5rem);
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+  h1 span { display: block; }
+  h1 .family {
+    display: inline-block;
+    background: linear-gradient(transparent 62%, var(--mark) 62% 90%, transparent 90%);
+  }
+  .lead { max-width: 36rem; margin: 1.75rem 0 0; font-size: 1.25rem; color: var(--muted); }
+
+  section { padding: 2.5rem 0; border-top: 1px solid var(--rule); }
+  h2 { margin: 0 0 1.5rem; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; }
+  h3 { margin: 0; font-size: 1.1875rem; font-weight: 500; }
+  p { margin: 0 0 1rem; }
+
+  .skills > div, .projects > li { padding: 1.25rem 0; border-bottom: 1px solid var(--rule); }
+  .skills > div:first-child, .projects > li:first-child { padding-top: 0; }
+  .skills > div:last-child, .projects > li:last-child { border-bottom: 0; padding-bottom: 0; }
+  .skills ul, .services { margin: 0.5rem 0 0; padding-left: 1.25rem; color: var(--muted); }
+  .services { margin: 0 0 1.25rem; }
+  .projects { list-style: none; margin: 0; padding: 0; }
+  .projects p { margin: 0.25rem 0 0; color: var(--muted); }
+  .projects .stack { color: var(--ink); font-size: 0.9375rem; margin-top: 0.5rem; }
+
+  .contact { list-style: none; margin: 1.25rem 0 0; padding: 0; font-size: 1.125rem; }
+  .contact li { margin-bottom: 0.5rem; }
+
+  footer { padding: 2.5rem 0 4rem; color: var(--muted); font-size: 0.9375rem; }
+
+  @media (max-width: 30rem) {
+    header { padding-top: 3.5rem; }
+    .lead { font-size: 1.125rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1><span>Dương</span><span>Đức <span class="family">Quân</span></span></h1>
+    <p class="lead">Lập trình viên Full Stack, đam mê công nghệ. Mình xây dựng website bán hàng, website giới thiệu và hệ thống quản lý.</p>
+  </div>
+</header>
+
+<main>
+  <section id="gioi-thieu">
+    <div class="wrap">
+      <h2>Giới thiệu</h2>
+      <p>Xin chào mọi người! Mình là Dương Đức Quân (DuongDucQuann), sinh năm 2006, đang theo học ngành Công nghệ Thông tin tại TP. Hồ Chí Minh.</p>
+      <p>Mình đam mê lập trình, phát triển phần mềm và các công nghệ mới. Mình không ngừng học hỏi, nâng cao kỹ năng và xây dựng các dự án thực tế để phát triển bản thân trong lĩnh vực Công nghệ Thông tin.</p>
+    </div>
+  </section>
+
+  <section id="ky-nang">
+    <div class="wrap">
+      <h2>Lĩnh vực và kỹ năng</h2>
+      <div class="skills">
+        <div>
+          <h3>Lập trình Web Full Stack</h3>
+          <ul>
+            <li>Frontend: HTML, CSS, JavaScript, ReactJS.</li>
+            <li>Backend: Node.js, Express.js, PHP, CodeIgniter.</li>
+            <li>Xây dựng API RESTful, tích hợp cơ sở dữ liệu và xác thực JWT.</li>
+            <li>Phát triển website bán hàng, website giới thiệu và hệ thống quản lý.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Phát triển ứng dụng và hệ thống</h3>
+          <ul>
+            <li>Tìm hiểu quy trình phát triển phần mềm.</li>
+            <li>Xây dựng ứng dụng và tích hợp API.</li>
+            <li>Nghiên cứu AI, chatbot và tự động hóa.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Công nghệ bản đồ và API</h3>
+          <ul>
+            <li>Tìm hiểu OpenStreetMap (OSM).</li>
+            <li>Nghiên cứu Nominatim và Geocoding.</li>
+            <li>Tích hợp API bản đồ vào các dự án web.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Cơ sở dữ liệu và Backend</h3>
+          <ul>
+            <li>MySQL và thiết kế cơ sở dữ liệu.</li>
+            <li>Xây dựng API, xử lý dữ liệu và xác thực người dùng.</li>
+            <li>Tìm hiểu Docker, CI/CD và tối ưu hiệu suất hệ thống.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Thiết kế và công cụ văn phòng</h3>
+          <ul>
+            <li>Thiết kế giao diện website hiện đại, thân thiện.</li>
+            <li>Thiết kế PowerPoint chuyên nghiệp.</li>
+            <li>Xử lý dữ liệu, công thức và báo cáo bằng Excel.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="du-an">
+    <div class="wrap">
+      <h2>Dự án</h2>
+      <ul class="projects">
+        <li>
+          <h3>TechShop VN</h3>
+          <p>Website bán đồ công nghệ, chạy trên Tomcat.</p>
+          <p class="stack">Java Servlet, JSP</p>
+        </li>
+        <li>
+          <h3>Nông Sản Sạch</h3>
+          <p>Website bán nông sản có đăng nhập và thanh toán.</p>
+          <p class="stack">CodeIgniter (PHP), MySQL</p>
+        </li>
+        <li>
+          <h3>Web bán vật liệu xây dựng</h3>
+          <p>Đồ án tốt nghiệp: giao diện và hệ thống quản lý bán vật liệu xây dựng.</p>
+          <p class="stack">HTML, CSS, Node.js, MySQL</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="dich-vu">
+    <div class="wrap">
+      <h2>Dịch vụ</h2>
+      <p>Mình nhận hỗ trợ các dự án:</p>
+      <ul class="services">
+        <li>Thiết kế và lập trình website theo yêu cầu.</li>
+        <li>Phát triển giao diện Frontend và hệ thống Backend.</li>
+        <li>Xây dựng API và tích hợp cơ sở dữ liệu.</li>
+        <li>Thiết kế PowerPoint, xử lý dữ liệu Excel.</li>
+        <li>Hỗ trợ chỉnh sửa, tối ưu và hoàn thiện sản phẩm theo yêu cầu.</li>
+      </ul>
+      <p>Mình luôn hướng đến sự rõ ràng, trách nhiệm, đúng tiến độ và chất lượng trong từng dự án.</p>
+    </div>
+  </section>
+
+  <section id="lien-he">
+    <div class="wrap">
+      <h2>Liên hệ hợp tác</h2>
+      <p>Bạn cần xây dựng website, phát triển ứng dụng, thiết kế giao diện hoặc xử lý dữ liệu bằng Excel và PowerPoint? Hãy nhắn tin cho mình qua Facebook Messenger để trao đổi yêu cầu và thống nhất phương án thực hiện.</p>
+      <ul class="contact">
+        <li><a href="https://www.facebook.com/DuongDucQuann" rel="me noopener" target="_blank">Facebook: facebook.com/DuongDucQuann</a></li>
+        <li><a href="https://github.com/duongducquan" rel="me noopener" target="_blank">GitHub: github.com/duongducquan</a></li>
+        <li><a href="https://www.linkedin.com/in/duongducquan" rel="me noopener" target="_blank">LinkedIn: linkedin.com/in/duongducquan</a></li>
+        <li><a href="https://sites.google.com/view/duongducquan" rel="me noopener" target="_blank">Website: sites.google.com/view/duongducquan</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Dương Đức Quân (DuongDucQuann) – Full Stack Web Developer</div>
+</footer>
+
+</body>
+</html>
