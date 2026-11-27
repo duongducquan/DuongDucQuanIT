@@ -1,0 +1,33 @@
+@font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:swap;src:url(fa-solid-900.woff2) format("woff2")}
+@font-face{font-family:"Font Awesome 6 Brands";font-style:normal;font-weight:400;font-display:swap;src:url(fa-brands-400.woff2) format("woff2")}
+.fas,.fab{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;line-height:1;text-rendering:auto}
+.fas{font-family:"Font Awesome 6 Free";font-weight:900}
+.fab{font-family:"Font Awesome 6 Brands";font-weight:400}
+.fa-address-card::before{content:"\f2bb"}
+.fa-arrow-up-right-from-square::before{content:"\f08e"}
+.fa-briefcase::before{content:"\f0b1"}
+.fa-cake-candles::before{content:"\f1fd"}
+.fa-cart-shopping::before{content:"\f07a"}
+.fa-code::before{content:"\f121"}
+.fa-code-branch::before{content:"\f126"}
+.fa-database::before{content:"\f1c0"}
+.fa-diagram-project::before{content:"\f542"}
+.fa-envelope::before{content:"\f0e0"}
+.fa-globe::before{content:"\f0ac"}
+.fa-graduation-cap::before{content:"\f19d"}
+.fa-industry::before{content:"\f275"}
+.fa-location-dot::before{content:"\f3c5"}
+.fa-paper-plane::before{content:"\f1d8"}
+.fa-phone::before{content:"\f095"}
+.fa-quote-left::before{content:"\f10d"}
+.fa-quote-right::before{content:"\f10e"}
+.fa-shirt::before{content:"\f553"}
+.fa-toolbox::before{content:"\f552"}
+.fa-trophy::before{content:"\f091"}
+.fa-user::before{content:"\f007"}
+.fa-users::before{content:"\f0c0"}
+.fa-git-alt::before{content:"\f841"}
+.fa-github::before{content:"\f09b"}
+.fa-html5::before{content:"\f13b"}
+.fa-php::before{content:"\f457"}
+.fa-react::before{content:"\f41b"}
