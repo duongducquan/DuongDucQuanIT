@@ -434,8 +434,6 @@ if (initEl)
 initEl.textContent = 'SYSTEM READY';
 setStatus('WELCOME', true);
 pl.classList.add('is-complete');
-var exitDelay = 0;
-setTimeout(function() {
 d.classList.remove('is-preloading');
 d.classList.add('preloader-done');
 pl.classList.add('is-exiting');
@@ -443,7 +441,6 @@ setTimeout(function() {
 if (pl && pl.parentNode)
 pl.parentNode.removeChild(pl);
 }, reduced ? 160 : 220);
-}, exitDelay);
 }
 function tick(now) {
 if (finished)
@@ -469,14 +466,16 @@ return;
 }
 setTimeout(function(){tick(performance.now())}, 16);
 }
-if (document.readyState === 'loading') {
-document.addEventListener('DOMContentLoaded', function() {
+function markDomReady() {
 domReady = true;
-}, {
+completeLoading();
+}
+if (document.readyState === 'loading') {
+document.addEventListener('DOMContentLoaded', markDomReady, {
 once: true
 });
 } else {
-domReady = true;
+markDomReady();
 }
 if (!winLoaded) {
 window.addEventListener('load', function() {
